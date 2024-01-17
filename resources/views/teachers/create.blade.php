@@ -9,6 +9,8 @@
             {!! csrf_field() !!}
             <label>Name</label></br>
             <input type="text" name="name" id="name" class="form-control"></br>
+            <label>Degree</label></br>
+            <input type="text" name="degree" id="name" class="form-control"></br>
             <label>Address</label></br>
             <input type="text" name="address" id="address" class="form-control"></br>
             <label>Mobile</label></br>

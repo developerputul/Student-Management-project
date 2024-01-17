@@ -10,6 +10,6 @@ class Teachers extends Model
 
     protected $table = 'Teachers';
     protected $primarykey = 'id';
-    protected $fillable = ['name', 'address', 'mobile',];
+    protected $fillable = ['name', 'degree', 'address', 'mobile',];
     use HasFactory;
 }
