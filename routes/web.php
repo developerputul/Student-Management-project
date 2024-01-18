@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use  App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
+use App\Http\Controllers\CourseController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,5 +22,7 @@ Route::get('/', function () {
 Route::resource('/students', StudentController::class);
 #Teacher
 Route::resource('/teachers', TeacherController::class);
+#Course
+Route::resource('/courses', CourseController::class);
 
 
