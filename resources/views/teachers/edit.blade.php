@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="card">
-  <div class="card-header">Teacher Edit Page</div>
+  <div class="card-header">Edit Page</div>
   <div class="card-body">
 
       <form action="{{ url('teachers/' .$teachers->id) }}" method="post">
@@ -12,7 +12,7 @@
         <label>Name</label></br>
         <input type="text" name="name" id="name" value="{{$teachers->name}}" class="form-control"></br>
         <label>Degree</label></br>
-        <input type="text" name="name" id="name" value="{{$teachers->degree}}" class="form-control"></br>
+        <input type="text" name="degree" id="degree" value="{{$teachers->degree}}" class="form-control"></br>
         <label>Address</label></br>
         <input type="text" name="address" id="address" value="{{$teachers->address}}" class="form-control"></br>
         <label>Mobile</label></br>

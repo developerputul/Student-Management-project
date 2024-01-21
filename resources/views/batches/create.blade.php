@@ -4,7 +4,7 @@
     <div class="card">
     <div class="card-header">Batch Create Page</div>
     <div class="card-body">
-
+        
         <form action="{{ url('batches') }}" method="post">
             {!! csrf_field() !!}
             <label>Batch Name</label></br>

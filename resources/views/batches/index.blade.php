@@ -18,7 +18,7 @@
                                             <th>#</th>
                                             <th>Name</th>
                                             <th>Course</th>
-                                            <th>start_date</th>
+                                            <th>Start Date</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
@@ -31,7 +31,7 @@
                                             <td>{{ $item->start_date }}</td>
 
                                             <td>
-                                                <a href="{{ url('/batches/' . $item->id) }}" title="View Course"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
+                                                <a href="{{ url('/batches/' . $item->id) }}" title="View batch"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
                                                 <a href="{{ url('/batches/' . $item->id . '/edit') }}" title="Edit batches"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
 
                                                 <form method="POST" action="{{ url('/batches' . '/' . $item->id) }}" accept-charset="UTF-8" style="display:inline">
