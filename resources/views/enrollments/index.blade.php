@@ -30,6 +30,7 @@
                                             <td>{{ $loop->iteration }}</td>
                                             <td>{{ $item->enroll_no }}</td>
                                             <td>{{ $item->batch_id }}</td>
+                                            <td>{{ $item->student_id }}</td>
                                             <td>{{ $item->join_date }}</td>
                                             <td>{{ $item->fee }}</td>
 
